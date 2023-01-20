@@ -1,0 +1,17 @@
+{
+  "name": "@netanelgilad/library",
+  "version": "0.0.1",
+  "packageManager": "yarn@3.3.1",
+  "files": [
+    "build"
+  ],
+  "exports": {
+    "./variant": "./build/variant"
+  },
+  "dependencies": {
+    "variant": "^3.0.0-dev.25"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.4"
+  }
+}
