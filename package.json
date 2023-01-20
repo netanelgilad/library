@@ -6,9 +6,11 @@
     "build"
   ],
   "exports": {
-    "./variant": "./build/variant"
+    "./variant": "./build/variant.js",
+    "./unimplemented": "./build/unimplemented.js"
   },
   "dependencies": {
+    "stacktrace-js": "^2.0.2",
     "variant": "^3.0.0-dev.25"
   },
   "devDependencies": {
