@@ -7,7 +7,8 @@
   ],
   "exports": {
     "./variant": "./build/variant.js",
-    "./unimplemented": "./build/unimplemented.js"
+    "./unimplemented": "./build/unimplemented.js",
+    "./Option": "./build/Option.js"
   },
   "dependencies": {
     "stacktrace-js": "^2.0.2",
